@@ -7,11 +7,23 @@ on:
 
 jobs:
   build:
+    name: Build Flutter App (iOS)
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v3
+      
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.7.3'
+          flutter-version: '3.24.0'
+          channel: 'stable'
+      
       - run: flutter pub get
+      
+      - run: flutter clean
+      
       - run: flutter build ipa --release
+      
+      - uses: actions/upload-artifact@v3
+        with:
+          name: ios-app
+          path: build/ios/ipa/*.ipa
