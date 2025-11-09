@@ -3,7 +3,7 @@
 
 AttendMitra is a smart attendance tracker app for college students, built using Flutter. It helps students easily track their lecture attendance, provides insights and statistics, and empowers them to make informed decisions about attending or skipping classes—solving the perpetual dilemma of "KONSA CLASS BUNK KARNA HAI!"
 
-## DOWNLOAD APK : 
+## DOWNLOAD APK :  https://github.com/zbytes2227/attednace-tracker-mitra/blob/74ff35572a7f11d4a6fd8748eb1b9a372ec7a400/Attendance_Tracker_Mitra.apk
 
 ## Features
 
