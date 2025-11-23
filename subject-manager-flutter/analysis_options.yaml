@@ -1,0 +1,26 @@
+# analysis_options.yaml
+include: package:flutter/analysis_options.yaml
+
+analyzer:
+  errors:
+    unused_import: warning
+    dead_code: warning
+    unnecessary_getters_setters: warning
+    unnecessary_this: warning
+    prefer_single_quotes: warning
+    prefer_const_constructors: warning
+    prefer_final_fields: warning
+    prefer_typing_uninitialized_variables: warning
+
+linter:
+  rules:
+    - avoid_print
+    - always_declare_return_types
+    - annotate_overrides
+    - prefer_is_empty
+    - prefer_contains
+    - avoid_function_literals_in_foreach_calls
+    - prefer_final_locals
+    - unnecessary_new
+    - unnecessary_lambdas
+    - use_key_in_widget_constructors
